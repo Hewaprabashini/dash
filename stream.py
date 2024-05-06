@@ -14,7 +14,7 @@ if f1 is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\User\Desktop\code")  
+     
     df = pd.read_csv("Global_Superstore_lite.csv", encoding="ISO-8859-1" )  
 
 col1, col2 = st.columns((2))
